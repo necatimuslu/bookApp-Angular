@@ -1,0 +1,34 @@
+<div class="row mt-3">
+    <div class="col-md-12">
+        <h3 class="text-center" style="font-size: 30px; font-weight: bold;">Kitap Detay</h3>
+        <hr />
+        <div class="row">
+            <div class="col-md-5">
+                <img [src]="book.image" class="img-fluid" />
+            </div>
+            <div class="col-md-7">
+                    <mat-list style="font-size: 15px; font-weight: bold; margin-left: 10px;">
+                        <mat-list-item>
+                            <span class="book-detail-text">Başlık: </span><strong class="ml-4">{{book.title}}</strong>
+                        </mat-list-item>
+                        <hr/>
+                        <mat-list-item>
+                            <span class="book-detail-text">Yazar: </span><strong class="ml-4 text-secondary">{{book.author}}</strong>
+                        </mat-list-item>
+                        <hr/>
+                        <mat-list-item>
+                            <span class="book-detail-text">Fiyat: </span> <strong class="ml-4 text-info"> {{book.price}} TL</strong>
+                        </mat-list-item>
+                        <hr/>
+                        <mat-list-item>
+                            <span class="book-detail-text">Stok: </span> <strong class="ml-4 text-danger">{{book.stock}} Adet </strong>
+                        </mat-list-item>
+                        <hr/>
+                        <mat-list-item>
+                            <span class="book-detail-text">Kategori:</span> <strong class="ml-2 text-success">{{book.category?.name}} </strong>
+                        </mat-list-item>
+                    </mat-list>
+            </div>
+        </div>
+    </div>
+</div>

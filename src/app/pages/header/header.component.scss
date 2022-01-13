@@ -1,0 +1,27 @@
+.header-title {
+  font-size: 25px;
+  text-decoration: none;
+}
+.header-title:hover {
+  color: "#fff" !important;
+  background-color: #fff !important;
+}
+.header-link {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header-link:hover {
+  color: "blue" !important;
+  background-color: #fff !important;
+}
+.header-book-icon {
+  font-size: 25px;
+  margin-right: 3px;
+  color: #f44336;
+}
+.header-admin-icon {
+  font-size: 25px;
+  margin-right: 3px;
+  color: #2196f3;
+}
